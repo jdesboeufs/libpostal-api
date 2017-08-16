@@ -13,7 +13,7 @@ function ensureQuery(req, res, next) {
   next()
 }
 
-api.get('/expand', ensureQuery, (req, res) => {
+api.get('/normalize', ensureQuery, (req, res) => {
   res.send(postal.expand.expand_address(req.query.q))
 })
 
