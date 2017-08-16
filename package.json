@@ -1,0 +1,26 @@
+{
+  "name": "libpostal-api",
+  "version": "0.1.0",
+  "description": "Small HTTP API to use libpostal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "lint": "xo"
+  },
+  "repository": "git@github.com:jdesboeufs/libpostal-api.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "node-postal": "^1.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  }
+}
